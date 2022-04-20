@@ -10,7 +10,8 @@ h1 {
     font-family: Abril Fatface;
 }
 
-nav {
+nav li a{
+    text-decoration: none;
     color: #777;
 }
 
@@ -47,6 +48,19 @@ h5 {
     width: 100%;
 }
 
-.more-articles {
-    
+div.more-articles section {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+}
+
+div.more-articles h4 {
+    font-family: Roboto Slab;
+    text-align: left;
+    padding-left: 25px;
+}
+
+div.more-articles p {
+    font-family: Source Sans Pro;
+    width: 350px;
 }
